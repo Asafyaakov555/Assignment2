@@ -91,7 +91,7 @@ public class GameManager : MonoBehaviour
         if(winORlose)
         {
             winText.gameObject.SetActive(true);
-            Invoke("StopGame",5f);
+            
             
         }
         else
@@ -102,10 +102,7 @@ public class GameManager : MonoBehaviour
         }
         
     }
-    void StopGame()
-    {
-        Time.timeScale = 0;
-    }
+    
 
 
 
